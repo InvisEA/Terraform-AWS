@@ -23,7 +23,7 @@ variable "environment_name" {
 variable "ami" {
   description = "Amazon machine image to use for ec2 instance"
   type        = string
-  default     = "ami-011899242bb902164" # Ubuntu 20.04 LTS // us-east-1
+  default     = "ami-0005e0cfe09cc9050" # Ubuntu 20.04 LTS // us-east-1
 }
 
 variable "instance_type" {
